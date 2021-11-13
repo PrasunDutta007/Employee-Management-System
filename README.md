@@ -31,7 +31,9 @@
 ```
 ```bash
   Copy the given below code into your your JSP directory under /usr/local/etc/httpd/htdocs/html/LOGIN 
-  (where LOGIN is your login name). You will need to change the 'xxxxxx' of "con=DriverManager.getConnection("jdbc:mysql://localhost/"+db,user,"xxxxxxx");" to reflect your MySQL   password. Copy the HTML form (right click and view source) to the same directory above or to your public_html directory and use it connect to your database via the JSP code. 
+  (where LOGIN is your login name). You will need to change the 'xxxxxx' of 
+  "con=DriverManager.getConnection("jdbc:mysql://localhost/"+db,user,"xxxxxxx");" to reflect your MySQL password. 
+  Copy the HTML form (right click and view source) to the same directory above or to your public_html directory and use it connect to your database via the JSP code. 
   
   `
   <%@ page import="java.sql.*"%>
