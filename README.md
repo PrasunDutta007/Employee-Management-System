@@ -23,7 +23,7 @@
   install `Tomcat server` properly in your system using the documentation provided below in `Resoources Section`
 ```
 ```bash
-  Check if your tomcat server is running by running the following in your Web Browser URL:
+  Check if your tomcat server is running by running the following URL in your Web Browser:
   `http://localhost:8080`
 ```
 ```bash
